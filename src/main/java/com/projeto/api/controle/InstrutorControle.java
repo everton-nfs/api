@@ -20,6 +20,11 @@ public class InstrutorControle {
   @Autowired
   private InstrutorServico instrutorServico;
 
+  @GetMapping("")
+  public String boasVindas(){
+    return "Seja bem vindo(a) a Aplicação Spring Boot - Gestão de Turmas e Instrutores";
+  }
+
   @PostMapping("/api/salvar/instrutor")
   public ResponseEntity<Instrutor> criarInstrutor(@RequestBody Instrutor instrutor) {
     Instrutor novoInstrutor = instrutorServico.criarInstrutor(instrutor);
