@@ -18,7 +18,7 @@ Este projeto foi desenvolvido utilizando as seguintes ferramentas:
 
  - **Extension Pack for Java:** Um conjunto de extensões para o VSCode que oferece suporte ao desenvolvimento em Java, incluindo funcionalidades como realce de sintaxe, completude de código, depuração e gerenciamento de dependências.
 
- - **MySQL Extension by Wijan Chen:** Uma extensão útil para gerenciar bancos de dados MySQL diretamente no VSCode, permitindo que você visualize esquemas de banco de dados, execute consultas SQL e gerencie seus dados sem sair do editor.
+ - **Database Client JDBC by Weijan Chen:** Uma extensão útil para gerenciar bancos de dados MySQL diretamente no VSCode, permitindo que você visualize esquemas de banco de dados, execute consultas SQL e gerencie seus dados sem sair do editor.
 
 ## Configuração do Banco de Dados
 
