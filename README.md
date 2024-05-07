@@ -4,7 +4,6 @@
 ## Pré-requisitos
 
     - Java JDK 17
-    - Maven 3.6.3+
     - Docker
     - Docker Compose
 
