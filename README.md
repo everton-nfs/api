@@ -55,3 +55,12 @@ A aplicação estará disponível em **http://localhost:8080.**
 ```sh
 docker-compose down
 ```
+
+## Documentação da API com Swagger
+
+A documentação da API está disponível através do Swagger UI. Para acessá-la, navegue até:
+
+**http://localhost:8080/swagger-ui/index.html**
+
+Através do Swagger UI, você pode visualizar todos os endpoints disponíveis, seus parâmetros, e realizar chamadas de teste diretamente pela interface.
+
