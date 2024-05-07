@@ -45,7 +45,6 @@ cd api
 1. Construir e rodar a aplicação:
 
 ```sh
-mvn clean install
 docker-compose up --build
 ```
 A aplicação estará disponível em **http://localhost:8080.**
