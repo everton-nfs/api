@@ -45,7 +45,9 @@ Para conectar-se ao banco de dados MySQL configurado, use a extensão Database C
    - **User:** root
    - **Password:** 12345678
    - **Database:** api_spring
-5. Salve a configuração e teste a conexão para garantir que tudo está funcionando corretamente.
+5. Após a conexão ser estabelecida com sucesso, você verá uma mensagem indicando que a conexão foi bem-sucedida conforme a imagem abaixo.
+
+![image](https://github.com/everton-nfs/api/assets/43849964/7b6b0616-1571-4986-9a48-d7168b32b5d7)
 
 ## Configuração Inicial
 
