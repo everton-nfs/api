@@ -1,0 +1,10 @@
+# @name save
+POST http://localhost:8080/api/salvar/instrutor
+Content-Type: application/json
+
+{
+  "nome": "Everton Santos", 
+  "rg": "123456007", 
+  "nascimento": "1995-02-20", 
+  "titulacao": 10
+}
