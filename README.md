@@ -29,9 +29,23 @@ Este projeto utiliza um banco de dados MySQL. Para configurar o banco de dados l
 2. No diretório raiz do projeto, abra o arquivo **docker-compose.yml.**
 3. Verifique e, se necessário, atualize as seguintes configurações do banco de dados:
    - Nome do banco de dados: **api_spring**
-   - Usuário do banco de dados: **root**
    - Senha do banco de dados: **12345678**
 4. Salve as alterações no arquivo **docker-compose.yml.**
+
+### Conectar utilizando a extensão Database Client JDBC
+
+Para conectar-se ao banco de dados MySQL configurado, use a extensão Database Client JDBC no Visual Studio Code seguindo estes passos:
+
+1. Abra o Visual Studio Code e acesse a extensão Database Client JDBC.
+2. Clique em "Create New Connection" ou "Nova Conexão".
+3. Selecione MySQL como tipo de banco de dados.
+4. Preencha os detalhes da conexão:
+   - **Host:** 127.0.0.1
+   - **Port:** 3306
+   - **User:** root
+   - **Password:** 12345678
+   - **Database:** api_spring
+5. Salve a configuração e teste a conexão para garantir que tudo está funcionando corretamente.
 
 ## Configuração Inicial
 
