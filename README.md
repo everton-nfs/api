@@ -19,6 +19,8 @@ Este projeto foi desenvolvido utilizando as seguintes ferramentas:
  - **Extension Pack for Java:** Um conjunto de extensões para o VSCode que oferece suporte ao desenvolvimento em Java, incluindo funcionalidades como realce de sintaxe, completude de código, depuração e gerenciamento de dependências.
 
  - **Database Client JDBC by Weijan Chen:** Uma extensão útil para gerenciar bancos de dados diretamente no VSCode, permitindo que você visualize esquemas de banco de dados, execute consultas SQL e gerencie seus dados sem sair do editor.
+   
+ - **REST Client:** Uma extensão que permite testar chamadas de API diretamente do VSCode, com suporte a sintaxe de cURL, além de oferecer recursos como histórico de solicitações e visualização de respostas.
 
 ## Configuração do Banco de Dados
 
