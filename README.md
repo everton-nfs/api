@@ -77,5 +77,8 @@ A documentação da API está disponível através do Swagger UI. Para acessá-l
 
 **http://localhost:8080/swagger-ui/index.html**
 
-Através do Swagger UI, você pode visualizar todos os endpoints disponíveis, seus parâmetros, e realizar chamadas de teste diretamente pela interface.
+Através do Swagger UI, você pode visualizar todos os endpoints disponíveis, seus parâmetros, e realizar chamadas de teste diretamente pela interface, conforme a imagem abaixo.
+
+![image](https://github.com/everton-nfs/api/assets/43849964/c0de9475-f54c-405d-912f-510eb38403a0)
+
 
