@@ -42,7 +42,7 @@ docker-compose up --build
 ```sh
 docker-compose down
 ```
-## Conectar utilizando a extensão Database Client JDBC
+## Conectar ao banco utilizando a extensão Database Client JDBC
 
 Para conectar-se ao banco de dados MySQL configurado, use a extensão Database Client JDBC no Visual Studio Code seguindo estes passos:
 
