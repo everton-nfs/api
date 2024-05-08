@@ -21,6 +21,28 @@ Este projeto foi desenvolvido utilizando as seguintes ferramentas:
    
  - **REST Client:** Uma extensão que permite testar chamadas de API diretamente do VSCode, com suporte a sintaxe de cURL, além de oferecer recursos como histórico de solicitações e visualização de respostas.
 
+## Configuração Inicial
+
+Clone e entre no diretório do projeto:
+
+```sh
+git clone git@github.com:everton-nfs/api.git
+cd api
+```
+## Execução com Docker Compose
+
+1. Construir e rodar a aplicação:
+
+```sh
+docker-compose up --build
+```
+A aplicação estará disponível em **http://localhost:8080.**
+
+2. Parar a aplicação:
+
+```sh
+docker-compose down
+```
 ## Configuração do Banco de Dados
 
 Este projeto utiliza um banco de dados MySQL. Para configurar o banco de dados localmente, siga estas etapas:
@@ -49,28 +71,15 @@ Para conectar-se ao banco de dados MySQL configurado, use a extensão Database C
 
 ![image](https://github.com/everton-nfs/api/assets/43849964/7b6b0616-1571-4986-9a48-d7168b32b5d7)
 
-## Configuração Inicial
+## Executando o Projeto com o Spring Boot Dashboard
 
-Clone e entre no diretório do projeto:
+Você pode executar o projeto Spring Boot diretamente do Spring Boot Dashboard no Visual Studio Code. Siga estas etapas:
 
-```sh
-git clone git@github.com:everton-nfs/api.git
-cd api
-```
-## Execução com Docker Compose
+1. Abra o Visual Studio Code.
+2. No Spring Boot Dashboard, clique em Run ao lado do nome do projeto.
+3. A aplicação será iniciada automaticamente conforme a imagem abaixo.
 
-1. Construir e rodar a aplicação:
-
-```sh
-docker-compose up --build
-```
-A aplicação estará disponível em **http://localhost:8080.**
-
-2. Parar a aplicação:
-
-```sh
-docker-compose down
-```
+![image](https://github.com/everton-nfs/api/assets/43849964/48e939e5-0e70-4116-a1d5-9ab0d3ef15f0)
 
 ## Documentação da API com Swagger
 
