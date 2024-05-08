@@ -52,7 +52,7 @@ Para conectar-se ao banco de dados MySQL configurado, use a extensão Database C
 4. Preencha os detalhes da conexão:
    - **Host:** 127.0.0.1
    - **Port:** 3306
-   - **User:** root
+   - **Username:** root
    - **Password:** 12345678
    - **Database:** api_spring
 5. Após a conexão ser estabelecida com sucesso, você verá uma mensagem indicando que a conexão foi bem-sucedida conforme a imagem abaixo.
