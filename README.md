@@ -36,7 +36,6 @@ cd api
 ```sh
 docker-compose up --build
 ```
-A aplicação estará disponível em **http://localhost:8080.**
 
 2. Parar a aplicação:
 
@@ -80,6 +79,8 @@ Você pode executar o projeto Spring Boot diretamente do Spring Boot Dashboard n
 3. A aplicação será iniciada automaticamente conforme a imagem abaixo.
 
 ![image](https://github.com/everton-nfs/api/assets/43849964/48e939e5-0e70-4116-a1d5-9ab0d3ef15f0)
+
+A aplicação estará disponível em **http://localhost:8080.**
 
 ## Documentação da API com Swagger
 
