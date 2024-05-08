@@ -42,18 +42,7 @@ docker-compose up --build
 ```sh
 docker-compose down
 ```
-## Configuração do Banco de Dados
-
-Este projeto utiliza um banco de dados MySQL. Para configurar o banco de dados localmente, siga estas etapas:
-
-1. Certifique-se de ter o Docker e o Docker Compose instalados em sua máquina.
-2. No diretório raiz do projeto, abra o arquivo **docker-compose.yml.**
-3. Verifique e, se necessário, atualize as seguintes configurações do banco de dados:
-   - Nome do banco de dados: **api_spring**
-   - Senha do banco de dados: **12345678**
-4. Salve as alterações no arquivo **docker-compose.yml.**
-
-### Conectar utilizando a extensão Database Client JDBC
+## Conectar utilizando a extensão Database Client JDBC
 
 Para conectar-se ao banco de dados MySQL configurado, use a extensão Database Client JDBC no Visual Studio Code seguindo estes passos:
 
