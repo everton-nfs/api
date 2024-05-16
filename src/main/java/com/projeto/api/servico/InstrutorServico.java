@@ -43,4 +43,12 @@ public class InstrutorServico {
             return true;
         }).orElse(false);
     }
+
+    public List<Instrutor> buscarPorNome(String nome) {
+        return instrutorRepositorio.findByNome(nome);
+    }
+
+    public List<Instrutor> buscarPorRG(int rg) {
+        return instrutorRepositorio.findByRG(rg);
+    }
 }
