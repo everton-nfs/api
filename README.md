@@ -77,7 +77,7 @@ A documentação da API está disponível através do Swagger UI. Para acessá-l
 
 **http://localhost:8080/swagger-ui/index.html**
 
-Através do Swagger UI, você pode visualizar todos os endpoints disponíveis, seus parâmetros, e realizar chamadas de teste diretamente pela interface, conforme a imagem abaixo.
+Através do Swagger UI, você pode visualizar todos os endpoints disponíveis da atividade, seus parâmetros, e realizar chamadas de teste diretamente pela interface, conforme a imagem abaixo.
 
 ![alt text](image.png)
 
