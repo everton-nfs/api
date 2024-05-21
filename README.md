@@ -1,4 +1,4 @@
-# Aplicação Spring Boot - Gestão de Turmas e Instrutores
+# Aplicação Spring Boot - Atividade Projeto, Recurso e Tarefa
 
 
 ## Pré-requisitos
@@ -79,6 +79,14 @@ A documentação da API está disponível através do Swagger UI. Para acessá-l
 
 Através do Swagger UI, você pode visualizar todos os endpoints disponíveis, seus parâmetros, e realizar chamadas de teste diretamente pela interface, conforme a imagem abaixo.
 
-![image](https://github.com/everton-nfs/api/assets/43849964/c0de9475-f54c-405d-912f-510eb38403a0)
+![alt text](image.png)
 
+<!-- ## Projeto Completo
+
+Para acessar o projeto completo siga os comandos abaixo do clone especifico:
+
+```sh
+git clone -b dev git@github.com:everton-nfs/api.git
+cd api
+``` -->
 
