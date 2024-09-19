@@ -36,12 +36,29 @@ cd api
 ```sh
 docker-compose up --build
 ```
-
 2. Parar a aplicação:
 
 ```sh
 docker-compose down
 ```
+
+## Script de Inicialização do Banco de Dados
+
+Para configurar e inserir dados iniciais no banco de dados MySQL, utilize o script de inicialização incluído no projeto:
+
+1. Certifique-se de que o Docker Compose está executando os serviços:
+
+```sh
+docker-compose up -d
+```
+2. Execute o script de inicialização:
+
+```sh
+./seed.sh
+```
+
+O script `seed.sh` está localizado na raiz do projeto e criará as tabelas necessárias e inserirá dados iniciais no banco de dados MySQL.
+
 ## Conectar ao banco utilizando a extensão Database Client JDBC
 
 Para conectar-se ao banco de dados MySQL configurado, use a extensão Database Client JDBC no Visual Studio Code seguindo estes passos:
